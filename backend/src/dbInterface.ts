@@ -96,13 +96,13 @@ export const queryBuildingsAndRooms =
   async (): Promise<BuildingsAndRoomsRes> => {
     const query = `
     query BuildingAndRooms {
-      buildings(order_by: {name: asc}) {
+      buildings(where: {name: {_neq: "Main Library"}}, order_by: {name: asc}) {
         id
         name
         lat
         long
         aliases
-        rooms(order_by: {id: asc}) {
+        rooms(where: {usage: {_neq: "LIB"}}, order_by: {id: asc}) {
           id
           name
           abbr
