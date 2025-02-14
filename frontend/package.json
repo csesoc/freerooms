@@ -28,7 +28,7 @@
     "esri-loader": "^3.7.0",
     "framer-motion": "^10.16.4",
     "match-sorter": "^7.0.0",
-    "next": "14.2.16",
+    "next": "14.2.21",
     "path-scurry": "^2.0.0",
     "react": "18.3.1",
     "react-big-calendar": "^1.6.9",
