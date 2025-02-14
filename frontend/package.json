@@ -27,7 +27,7 @@
     "date-fns-tz": "^2.0.0",
     "esri-loader": "^3.7.0",
     "framer-motion": "^10.16.4",
-    "match-sorter": "^7.0.0",
+    "match-sorter": "^8.0.0",
     "next": "14.2.16",
     "path-scurry": "^2.0.0",
     "react": "18.3.1",
